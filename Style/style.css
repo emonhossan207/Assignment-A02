@@ -65,6 +65,7 @@ header button{
 }
 /* hero-banner */
 #hero{
+    width: 100%;
     text-align: center;
     background-image: url(../images/hero-bg.png); 
     background-position: center;
@@ -414,4 +415,31 @@ footer .footer-head{
     opacity: 0.6;
     margin-top: 34px;
     padding-bottom: 120px;
+}
+
+/* responsive -mobile*/
+@media screen and (max-width:576px) {
+    header img{
+    display: inline;
+}
+.Menu{
+    display: none;
+}
+header button{
+    display: none;
+}
+.banner-img h4{
+    right: 18%;
+    top: 18%
+}
+#hero{
+    min-height: 50vh;
+}
+.banner .banner-img img{
+    margin-top: 20px;
+    padding: 120px;
+
+}
+
+
 }
