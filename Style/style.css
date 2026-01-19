@@ -184,7 +184,7 @@ header button{
 /* <!-- Why Chose TechWave */
 .choose-techwave{
     padding-top: 50px;
-    margin: 0 auto;;
+    margin: 0 auto;
     background: rgba(35, 14, 61, 1);
     height: 1000px;
 
@@ -261,3 +261,26 @@ header button{
     font-weight: 400px;
     opacity: 0.6;
 }
+/* feature-card */
+.feature-card{
+    margin: 0 auto;
+}
+.card .card-head h1{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+.feature-card .card .card-image{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    border: 1px solid red;
+}
+.feature-card .card .card-image card-1{
+    border-radius: 0px 0px 24px 24px;
+   background: rgba(37, 13, 68, 1);
+}
+
