@@ -266,21 +266,63 @@ header button{
     margin: 0 auto;
 }
 .card .card-head h1{
-    text-align: center;
     margin-top: 120px;
     margin-bottom: 40px;
     font-size: 48px;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
+    text-align: center;
 }
 .feature-card .card .card-image{
     display: flex;
-    justify-content: center;
     gap: 30px; 
-    border: 1px solid red;
+    justify-content: center;
+    position: relative;
+
 }
-.feature-card .card .card-image card-1{
-    border-radius: 0px 0px 24px 24px;
-   background: rgba(37, 13, 68, 1);
+
+.card-image  iframe {
+  border-radius: 24px 24px 0px 0px;
+  width: 380px;
+  height: 200px;
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+.card-image .card-title-1,.card-title-2,.card-title-3{
+    width: 380px;
+    border-radius: 24px 24px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+    padding: 30px;
+}
+.card-image h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 12px;
+}
+.card-image p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 12px;
+}
+.card-image{
+    ont-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 255, 136, 1);
+}
+.card-title-1 .clock{
+    display: flex;
+    gap: 6px;
+}
+.card-title-2 .clock{
+    display: flex;
+    gap: 6px;
+}
+.card-title-3 .clock{
+    display: flex;
+    gap: 6px;
 }
 
