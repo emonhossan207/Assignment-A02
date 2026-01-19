@@ -18,7 +18,7 @@ body{
 
 header{
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
@@ -66,7 +66,6 @@ header button{
 /* hero-banner */
 #hero{
     text-align: center;
-    width: 100%;
     background-image: url(../images/hero-bg.png); 
     background-position: center;
     background-repeat: no-repeat; 
@@ -83,6 +82,7 @@ header button{
     padding: 120px;
     position: relative;
 }
+
 .banner-img h4{
     font-size: 18px;
     padding: 8px 16px;
@@ -186,27 +186,78 @@ header button{
     padding-top: 50px;
     margin: 0 auto;;
     background: rgba(35, 14, 61, 1);
- 
+    height: 1000px;
+
 }
 .choose-techwave .choose-head h1{
-    margin-top:80px;
     text-align: center;
-     font-size: 48px;
-     font-weight: 700;
-     color: rgba(255, 255, 255, 1);
-     margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
 }
 .choose-techwave .card{
-    text-align: center;
-    border: 2px solid green;
-    min-height: 300px;
+    margin: 0 auto;
+    max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(,1fr);
-    grid-template-rows: repeat(2,200px);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,200px);
+    gap: 50px;
+    justify-content: center;
+    
 }
-.card .box-1{
-    grid-row: 2/ span 2 ;
+.choose-techwave .card .box-1{
     border-radius: 40px;
     background: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    width: 380px;
+    height: 480px;
+    padding: 100px 40px;
 }
 
+.choose-techwave .card .box-2{
+    grid-column: 2/span 4;
+     border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    width: 790px;
+    height: 225px;
+    padding: 40px;
+}
+.choose-techwave .card .box-3{
+    grid-column: 2/span 4;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    width: 790px;
+    height: 225px;
+    padding: 40px;
+}
+.choose-techwave .card .box-4{
+    grid-column: 1/span 2;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);   
+    padding: 40px; 
+     width: 780px;
+     height: 273px;
+}
+.choose-techwave .card .box-5{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    height: 273px;
+    width: 373px;
+}
+.card img{ 
+    margin-bottom: 16px;
+}
+.card h3{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.card p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 0.6;
+}
