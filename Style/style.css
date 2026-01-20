@@ -115,7 +115,7 @@ header button{
     font-weight: 400;
     margin-bottom: 24px;  
 }
-.banner-title .firstbtn{
+.banner-title .first-btn{
     padding: 12px 20px;
     font-size: 16px;
     font-weight: 600;
@@ -124,7 +124,7 @@ header button{
     border: none;
     border-radius: 10000px;
 }
-.banner-title .secondbtn{
+.banner-title .second-btn{
     padding: 12px 20px;
     font-size: 16px;
     font-weight: 600;
@@ -183,21 +183,21 @@ header button{
     margin-bottom: 120px;
 }
 /* <!-- Why Chose TechWave */
-.choose-techwave{
+.choose-tech-wave{
     padding-top: 50px;
     margin: 0 auto;
     background: rgba(35, 14, 61, 1);
     height: 1000px;
 
 }
-.choose-techwave .choose-head h1{
+.choose-tech-wave .choose-head h1{
     text-align: center;
     font-size: 48px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
 }
-.choose-techwave .card{
+.choose-tech-wave .card{
     margin: 0 auto;
     max-width: 1200px;
     display: grid;
@@ -207,7 +207,7 @@ header button{
     justify-content: center;
     
 }
-.choose-techwave .card .box-1{
+.choose-tech-wave .card .box-1{
     border-radius: 40px;
     background: rgba(53, 17, 101, 0.4);
     padding: 40px;
@@ -216,7 +216,7 @@ header button{
     padding: 100px 40px;
 }
 
-.choose-techwave .card .box-2{
+.choose-tech-wave .card .box-2{
     grid-column: 2/span 4;
      border-radius: 40px;
     background: rgba(53, 17, 101, 0.4);
@@ -224,7 +224,7 @@ header button{
     height: 225px;
     padding: 40px;
 }
-.choose-techwave .card .box-3{
+.choose-tech-wave .card .box-3{
     grid-column: 2/span 4;
     border-radius: 40px;
     background: rgba(53, 17, 101, 0.4);
@@ -232,7 +232,7 @@ header button{
     height: 225px;
     padding: 40px;
 }
-.choose-techwave .card .box-4{
+.choose-tech-wave .card .box-4{
     grid-column: 1/span 2;
     border-radius: 40px;
     background: rgba(53, 17, 101, 0.4);   
@@ -240,7 +240,7 @@ header button{
      width: 780px;
      height: 273px;
 }
-.choose-techwave .card .box-5{
+.choose-tech-wave .card .box-5{
     border-radius: 40px;
     background: rgba(53, 17, 101, 0.4);
     padding: 40px;
@@ -425,7 +425,7 @@ footer .footer-head{
 }
 
 /* responsive -mobile*/
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
     header img{
     display: inline;
 }
@@ -462,43 +462,43 @@ header button{
     padding: 20px;
 }
 /* why choose Techwave */
-.choose-techwave{
+.choose-tech-wave{
     height: 1500px;
     padding: 45px;
 }
-.choose-techwave .choose-head h1{
+.choose-tech-wave .choose-head h1{
     font-size: 32px;
 }
 
-.choose-techwave .card{
+.choose-tech-wave .card{
     display: inline;
 }
-.choose-techwave .card .box-1{
+.choose-tech-wave .card .box-1{
     padding: 24px;
     width: 400px;
     height: 290px;
     margin-bottom: 16px;
 }
 
-.choose-techwave .card .box-2 {
+.choose-tech-wave .card .box-2 {
     width: 400px;
     height: 215px;
     padding: 24px;
     margin-bottom: 16px;
 }
-.choose-techwave .card .box-3{
+.choose-tech-wave .card .box-3{
     width: 400px;
     height: 215px;
     padding: 24px;
     margin-bottom: 16px;
 }
-.choose-techwave .card .box-4{  
+.choose-tech-wave .card .box-4{  
     width: 400px;
     height: 311px;
     padding: 30px;
     margin-bottom: 16px;
 }
-.choose-techwave .card .box-5{
+.choose-tech-wave .card .box-5{
     padding: 24px;
     width: 400px;
     height: 215px;
