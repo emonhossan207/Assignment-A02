@@ -176,7 +176,7 @@ header button{
     margin-bottom: 16px;
 }
 .about .about-rank p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
     opacity: 0.8;
@@ -430,16 +430,83 @@ header button{
 }
 .banner-img h4{
     right: 18%;
-    top: 18%
+    top: 22%
 }
 #hero{
     min-height: 50vh;
 }
 .banner .banner-img img{
     margin-top: 20px;
-    padding: 120px;
+    padding: 160px;
+}
+#hero{
+    background-image: url(../images/Image.png); 
+    min-height: 100vh;
+}
+.podcast{
+    padding: 40px 20px;
+}
+.about .about-rank{
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+    padding: 20px;
+}
+/* why choose Techwave */
+.choose-techwave{
+    height: 1500px;
+    padding: 45px;
+}
+.choose-techwave .choose-head h1{
+    font-size: 32px;
+}
+
+.choose-techwave .card{
+    display: inline;
+}
+.choose-techwave .card .box-1{
+    padding: 24px;
+    width: 400px;
+    height: 290px;
+    margin-bottom: 16px;
+}
+
+.choose-techwave .card .box-2 {
+    width: 400px;
+    height: 215px;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+.choose-techwave .card .box-3{
+    width: 400px;
+    height: 215px;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+.choose-techwave .card .box-4{  
+    width: 400px;
+    height: 311px;
+    padding: 30px;
+    margin-bottom: 16px;
+}
+.choose-techwave .card .box-5{
+    padding: 24px;
+    width: 400px;
+    height: 215px;
+}
+
+/* feature episodes */
+.feature-card .card .card-image{
+    flex-direction: column;
+    gap: 30px; 
+    justify-content: center;
+    position: relative;
 
 }
+
+
 
 
 }
